@@ -1,4 +1,4 @@
-# Cleaning and Preprocessing Loan Data using NumPy
+# Cleaning and Preprocessing Loan Data using NumPy 
 
 ## Data and Tools Used
 

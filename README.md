@@ -16,12 +16,12 @@ Clean the loan data and preprocess it to be in a form which can then be used to 
 
 ## Summary:
 
-The complete details of each step taken are captured in the attached Jupyter Notebook with appropriate comments. Below is a brief summary/overview:
+The complete details of each step taken are captured in the attached Jupyter Notebook with appropriate comments (Code.ipynb). Below is a brief summary/overview:
 
 Imported the raw data in an nd-array and performed the following:
 - Split the dataset into 2 subparts (numeric and non-numeric)
 - Checked for and filled out missing values
 - Manipulated columns containing text data to strip any redundant text and converted them to numeric data wherever possible by grouping the categories
 - Manipulated columns containing numeric data and added new ones displaying the default amounts(USD) in EUR
-- Saved the data into .npz files at various checkpoints to ensure it was not lost
-- Finally, merged the datasets and the headers into a final comprehensive text file
+- Saved the data into .npz files at various checkpoints to ensure it was not lost (Checkpoint-Strings.npz and Checkpoint-numeric.npz)
+- Finally, merged the datasets and the headers into a final comprehensive text file (loan-data-preprocessed.csv).

@@ -2,10 +2,11 @@
 
 ## Data and Tools Used
 
-**Data** - loan-data.csv (containing 10000 rows of data with the fields - id, issue_d, loan_amnt, loan_status, funded_amnt, term, int_rate, installment, grade, sub_grade, verification_status, 
-                          url, addr_state and total_pymnt)
-           Loan Dataset Dictionary.xlsx (file describing the data contained in each of the fields)
-           EUR-USD.csv (file containing the monthly average conversion rates between the 2 currencies - to be used for creating additional columns with data in Euros)
+**Data**
+- loan-data.csv (containing 10000 rows of data with the fields - id, issue_d, loan_amnt, loan_status, funded_amnt, term, int_rate, installment, grade, sub_grade, verification_status, url, 
+                 addr_state and total_pymnt)
+- Loan Dataset Dictionary.xlsx (file describing the data contained in each of the fields)
+- EUR-USD.csv (file containing the monthly average conversion rates between the 2 currencies - to be used for creating additional columns with data in Euros)
 
 **Data Cleaning & Preprocessing** - Python, NumPy (using Jupyter Notebook)
 

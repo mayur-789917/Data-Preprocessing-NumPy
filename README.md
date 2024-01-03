@@ -16,6 +16,7 @@ Clean the loan data and preprocess it to be in a form which can then be used to 
 
 ## Summary:
 
+Applied Python and NumPy to perform comprehensive cleaning and preprocessing of loan data, employing various advanced NumPy techniques to enhance the quality and reliability of raw data. Successfully revamped the dataset, ensuring data integrity and consistency, contributing to improved data quality for subsequent analysis.
 The complete details of each step taken are captured in the attached Jupyter Notebook with appropriate comments (Code.ipynb). Below is a brief summary/overview:
 
 Imported the raw data in an nd-array and performed the following:
